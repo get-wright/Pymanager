@@ -57,10 +57,10 @@ def upload():
             # Putting the results into a Pandas DataFrame
             
             def inspect(results):
-                lhs         = [tuple(result[2][0][0])[0] for result in results]
-                rhs         = [tuple(result[2][0][1])[0] for result in results]
+                product_1   = [tuple(result[2][0][0])[0] for result in results]
+                product_2   = [tuple(result[2][0][1])[0] for result in results]
                 supports    = [result[1] for result in results]
-                return list(zip(lhs, rhs, supports))
+                return list(zip(product_1, product_2, supports))
             resultsinDataFrame = pd.DataFrame(inspect(results), columns = ['Product 1', 'Product 2', 'Support'])
 
             # Sorted by descending supports
