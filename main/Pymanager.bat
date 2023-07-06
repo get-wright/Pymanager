@@ -6,6 +6,7 @@ python --version >nul 2>&1 || (
         echo Installing Python...
         start /wait msiexec /i python-3.x.x.msi /passive /norestart
         echo Python installation complete.
+        cscript //nologo refreshenv.vbs
     )
 )
 pip --version >nul 2>&1 || (
@@ -15,6 +16,7 @@ pip --version >nul 2>&1 || (
         echo Installing pip...
         start /wait python get-pip.py
         echo pip installation complete.
+        cscript //nologo refreshenv.vbs
     )
 )
 python setup.py
