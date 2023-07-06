@@ -12,6 +12,9 @@
             </div>
             <button type="submit" class="btn btn-primary">Upload</button>
         </form>
+        {% if error %}
+            <p class="error">{{ error }}</p>
+        {% endif %}
     </div>
 </body>
 </html>
