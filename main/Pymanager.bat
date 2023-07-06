@@ -4,7 +4,8 @@ python --version >nul 2>&1 || (
     set /p installPython="Do you want to install Python? (y/n): "
     if /i "%installPython%"=="y" (
         echo Installing Python...
-        msiexec /i python-3.x.x.msi /passive /norestart
+        start /wait msiexec /i python-3.x.x.msi /passive /norestart
+        echo Python installation complete.
     )
 )
 pip --version >nul 2>&1 || (
@@ -12,7 +13,8 @@ pip --version >nul 2>&1 || (
     set /p installPip="Do you want to install pip? (y/n): "
     if /i "%installPip%"=="y" (
         echo Installing pip...
-        python get-pip.py
+        start /wait python get-pip.py
+        echo pip installation complete.
     )
 )
 python setup.py
