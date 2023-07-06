@@ -9,6 +9,7 @@ print("By tqhe and Luong Ngoc Linh")
 print("A python machine learning model designs to help store managers to identify which items are purchased together.")
 
 ## Dependencies
+
 import os
 import pandas as pd
 from apyori import apriori
@@ -26,9 +27,19 @@ if not os.path.exists(upload_folder_path):
     os.makedirs(upload_folder_path)
 
 @app.route('/', methods=['GET', 'POST'])
-
-# The upload part
 def upload():
+    
+    # Uploading file
+    
+    if request.method == 'POST':
+        if 'csv_data' not in request.files:
+            return render_template('upload.html', error="No file selected")
+        file = request.files['csv_data']
+        if file.filename == '':
+            return render_template('upload.html', error="No file selected")
+        if not file.filename.endswith('.csv'):
+            return render_template('upload.html', error="Unsupported file type. Please upload a CSV file.")
+
     if request.method == 'POST' and 'csv_data' in request.files:
         file = request.files['csv_data']
         name = secure_filename(file.name)
