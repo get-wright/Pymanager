@@ -27,6 +27,7 @@ Using the provided data, managers can discern which items are frequently purchas
 
 ## System Requirement 
 It requires a machine running Windows 8.1/Windows 10/Windows 11 (Support for Windows 7 is untested, it may or may not work)
+
 Mac is unsupported (Coming soon)
 
 ## Troubleshooting
