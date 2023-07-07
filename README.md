@@ -33,7 +33,7 @@ It requires a machine running `Windows 8.1`/`Windows 10`/`Windows 11` (Support f
 ## Troubleshooting
 Encountering problems while running Pymanager? 
 
-Please visit [here]((docs/Troubleshooting.md)!
+Please visit [here](docs/Troubleshooting.md)!
 
 
 _____________________________________________________________________
