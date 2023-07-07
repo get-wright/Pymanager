@@ -57,7 +57,7 @@ def upload():
             for i in range(number_of_rows):
                 bill.append([str(asset.values[i,j]) for j in range(number_of_cols)])
   
-            # Training the Apriori model on the dataset
+            # Training the Eclat model on the dataset
             rules = apriori(transactions = bill, min_support = 0.003, min_confidence = 0.2, min_lift = 3, min_length = 2, max_length = 2)
 
             results = list(rules)
