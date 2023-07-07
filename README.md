@@ -1,5 +1,5 @@
 # Pymanager
-A python machine learning model designs to help store managers to identify which items are purchased together.
+A Flask-based web application utilizes machine learning to help managers identify which items are purchased together.
 
 ## Quick start guide
 1. Download [Pymanager](https://github.com/get-wright/Pymanager/archive/refs/heads/main.zip) and unzip it.
