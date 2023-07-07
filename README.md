@@ -25,6 +25,13 @@ Using the provided data, managers can discern which items are frequently purchas
 - **Tailoring sales to consumer needs**: Understanding purchasing patterns allows for maximization of profits by catering to consumer demands.
 - **Efficiently restocking necessary items**: Knowledge of which items are often bought together aids in maintaining optimal inventory levels.
 
+## System Requirement 
+It requires a machine running Windows 8.1/Windows 10/Windows 11 (Support for Windows 7 is untested, it may or may not work)
+Mac is unsupported (Coming soon)
+
+## Troubleshooting
+Please visit 
+
 
 
 
