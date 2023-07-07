@@ -31,7 +31,14 @@ It requires a machine running `Windows 8.1`/`Windows 10`/`Windows 11` (Support f
 `Mac` is unsupported (Coming soon)
 
 ## Troubleshooting
-Please visit 
+Encountering problems while running Pymanager? 
+
+Please visit [here]((docs/Troubleshooting.md)!
+
+
+_____________________________________________________________________
+Authors: tqhe, Luong Ngoc Linh
+Contact: luonglinha4@gmail.com
 
 
 
