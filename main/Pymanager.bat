@@ -17,3 +17,4 @@ if %errorlevel% neq 0 (
 
 echo Running setup.py...
 call python setup.py
+pause
