@@ -6,13 +6,7 @@ python --version >nul 2>&1 || (
         echo Installing Python...
         start /wait msiexec /i python-3.x.x.msi /passive /norestart
         echo Python installation complete.
-        echo Progress:
-        for /L %%i in (1,1,10) do (
-            echo.| set /p ="="
-            choice /C X /T 1 /D X >nul
-        )
-    echo Done.
-    cscript //nologo refreshenv.vbs
+        cscript //nologo refreshenv.vbs
     )
 )
 pip --version >nul 2>&1 || (
@@ -22,12 +16,6 @@ pip --version >nul 2>&1 || (
         echo Installing pip...
         start /wait python get-pip.py
         echo pip installation complete.
-        echo Progress:
-        for /L %%i in (1,1,10) do (
-            echo.| set /p ="="
-            choice /C X /T 1 /D X >nul
-        )
-        echo Done.
         cscript //nologo refreshenv.vbs
     )
 )
