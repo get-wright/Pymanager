@@ -3,9 +3,9 @@ A Flask-based web application utilizes machine learning to help managers identif
 
 ## Quick start guide
 1. Download [Pymanager](https://github.com/get-wright/Pymanager/archive/refs/heads/main.zip) and unzip it.
-2. Run the 'Pymanager.bat' to check for missing dependencies. Let the script do it the work for you.  
+2. Run the `Pymanager.bat` to check for missing dependencies. Let the script do it the work for you.  
 3. There will be a prompt asking you to access http://127.0.0.1:5000/
-4. Upload the '.csv' file contains items bought from the store.
+4. Upload the `.csv` file contains items bought from the store.
 
 There is a [demo](https://drive.google.com/file/d/1GH25Ta3nKlSzIzbsGxn1y0EZjjbCpSuv/view?usp=sharing) for you to test Pymanager.
 
@@ -26,9 +26,9 @@ Using the provided data, managers can discern which items are frequently purchas
 - **Efficiently restocking necessary items**: Knowledge of which items are often bought together aids in maintaining optimal inventory levels.
 
 ## System Requirement 
-It requires a machine running Windows 8.1/Windows 10/Windows 11 (Support for Windows 7 is untested, it may or may not work)
+It requires a machine running `Windows 8.1`/`Windows 10`/`Windows 11` (Support for Windows 7 is untested, it may or may not work)
 
-Mac is unsupported (Coming soon)
+`Mac` is unsupported (Coming soon)
 
 ## Troubleshooting
 Please visit 
