@@ -1,5 +1,5 @@
 @echo off
-python --version >nul 2>&1
+python --version 
 if %errorlevel% neq 0 (
     echo Python not found.
     set /p installPython="Do you want to install Python? (y/n): "
@@ -14,7 +14,7 @@ if %errorlevel% neq 0 (
     )
 )
 
-pip --version >nul 2>&1
+pip --version 
 if %errorlevel% neq 0 (
     echo pip not found.
     set /p installPip="Do you want to install pip? (y/n): "
