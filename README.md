@@ -3,9 +3,10 @@ A Flask-based web application utilizes machine learning to help managers identif
 
 ## Quick start guide
 1. Download [Pymanager](https://github.com/get-wright/Pymanager/archive/refs/heads/main.zip) and unzip it.
-2. Run the `Pymanager.bat` to check for missing dependencies. Let the script do it the work for you.  
-3. There will be a prompt asking you to access http://127.0.0.1:5000/
-4. Upload the `.csv` file contains items bought from the store.
+2. Run the `Pymanager.bat` to check for missing dependencies. Let the script do it the work for you.
+  **Note:** Just run `Pymanager.bat` again if you see any problem during the first run. (In some instances, you have to run it 3 times)
+4. There will be a prompt asking you to access http://127.0.0.1:5000/
+5. Upload the `.csv` file contains items bought from the store.
 
 There is a [demo](https://drive.google.com/file/d/1GH25Ta3nKlSzIzbsGxn1y0EZjjbCpSuv/view?usp=sharing) for you to test Pymanager.
 
