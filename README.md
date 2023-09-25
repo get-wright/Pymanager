@@ -41,7 +41,8 @@ Please visit [here](docs/Troubleshooting.md)!
 
 _____________________________________________________________________
 Authors: tqhe, Luong Ngoc Linh
-Contact: luonglinha4@gmail.com
+
+Contact: taquochung_hsgs20@hus.edu.vn; luonglinha4@gmail.com
 
 
 
